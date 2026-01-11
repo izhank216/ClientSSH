@@ -1,11 +1,11 @@
 package com.izhan.clientssh;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.*;
-import androidx.appcompat.app.AppCompatActivity;
 import com.google.common.base.Strings;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     EditText hostInput;
     EditText portInput;
