@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace "com.izhan.clientssh"
     compileSdk 34
 
     defaultConfig {
