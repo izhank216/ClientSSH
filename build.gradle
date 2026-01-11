@@ -34,7 +34,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.jcraft:jsch:0.1.59'
+    implementation 'com.jcraft:jsch:0.1.55'
     implementation 'com.google.guava:guava:32.1.2-android'
     implementation 'commons-io:commons-io:2.13.0'
 }
