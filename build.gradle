@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.application' version '8.1.1'
 }
 
 android {
@@ -16,6 +16,13 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+        }
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['app/src/main/java']
+            manifest.srcFile 'app/AndroidManifest.xml'
         }
     }
 }
